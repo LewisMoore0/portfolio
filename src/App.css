@@ -13,20 +13,25 @@
   color: white;
 }
 
+.wrapper {
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
 .container {
   display: grid;
-  grid-column-gap: 1px;
-  grid-row-gap: 10px;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 80px auto 80px; 
+  grid-template-rows: masonry;
   column-gap: 10px;
-  row-gap: 15px;  text-align: center;
+  row-gap: 10px;
+  text-align: center;
   background-color: #282c34;
 }
 
 .column {
   background-color: white;
-  display: flex;
+  display: grid;
   justify-content: center;
   padding: 20px;
 }
