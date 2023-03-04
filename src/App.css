@@ -28,14 +28,19 @@
   border-radius: 25%;
 }
 
-.text-container {
-  grid-column: 2 / 3;
-  grid-row: 2;
-  text-align: center;
-  background-color: #282c34;
-}
-
 body {
  background-color: #282c34;
 }
 
+.icon-container {
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+  place-items: center;
+}
+
+.linkedin-icon {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+}
