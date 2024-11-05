@@ -4,7 +4,7 @@ export const IntroductionCard = () => {
 
     return ( 
         <Card variant='outlined' sx={{ height: '500px' }}>
-            <Typography>Climber, Instructor, Developer </Typography>
+            <Typography align='center'> Header Image</Typography>
         </Card>
     )
 }
