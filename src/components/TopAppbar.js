@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { Button, Link } from '@mui/material';
-import { useNavigate } from 'react-router-dom'
 
 export default function TopAppBar() {
 
@@ -15,8 +14,8 @@ export default function TopAppBar() {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Welcome to my Portfolio!
           </Typography>
-          <Link sx={{ p:1 }} color='inherit' href={'/'}>Home</Link>
-          <Link sx={{ p:1 }} color='inherit' href={'/about'}>About</Link>
+          <Link sx={{ p:1 }} color='inherit'>Home</Link>
+          <Link sx={{ p:1 }} color='inherit'>About</Link>
         </Toolbar>
       </AppBar>
     </Box>
