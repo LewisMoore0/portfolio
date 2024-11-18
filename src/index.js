@@ -24,14 +24,14 @@ const router = createBrowserRouter([
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#083d32',
+      main: '#4c6ffc',
     },
     secondary: {
       main: '#9ca697',
     },
     background: {
-      default: '#6b8a72',
-      paper: '#b0c2b4'
+      default: '#fffff',
+      paper: '#fffff'
     }
   },
 })

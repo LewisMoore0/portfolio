@@ -5,7 +5,7 @@ export const HomePage = () => {
     const theme = useTheme()
 
     return ( 
-        <Box sx={{ backgroundColor: theme.palette.background.paper }}>
+        <Box>
             <IntroductionCard/>
         </Box>
     )
