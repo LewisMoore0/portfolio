@@ -1,0 +1,16 @@
+.project-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 25px;
+}
+
+.project-item {
+    text-align: center;
+    border: 1px solid;
+    flex: 200px;
+    padding: 40px;
+    margin: 10px;
+    background-color: rgba(76,111,252, 0.2);
+    border-radius: 15px;
+    
+}
