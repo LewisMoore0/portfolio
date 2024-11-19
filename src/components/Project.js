@@ -5,20 +5,26 @@ import '../styles/project.css'
 export const Project = () => {
     return (
         <div class='project-container'>
-            <div class='project-item'>
-                <h3>Project Number 1</h3>
-                <p>A summary of what this project is, what it does and the technology it uses</p>
-            </div>
-            <div class='project-item'>
-                <h3>Project Number 2</h3>
-                <p>A summary of what this project is, what it does and the technology it uses</p>
-            </div>
-            <div class='project-item'>
-                <h3>Project Number 3</h3>
-                <p>A summary of what this project is, what it does and the technology it uses, but this is a really long description
-                    that needs some more space within the box.
-                </p>
-            </div>
+            <a class='project-item' href='https://www.github.com/lewismo>ore0'>
+                <div >
+                    <h3>Project Number 1</h3>
+                    <p>A summary of what this project is, what it does and the technology it uses</p>
+                </div>
+            </a>
+            <a class='project-item' href='https://www.github.com/lewismo>ore0'>
+                <div >
+                    <h3>Project Number 2</h3>
+                    <p>A summary of what this project is, what it does and the technology it uses</p>
+                </div>
+            </a>
+            <a class='project-item' href='https://www.github.com/lewismo>ore0'>
+                <div >
+                    <h3>Project Number 3</h3>
+                    <p>A summary of what this project is, what it does and the technology it uses but this one has a 
+                        really long description of what it does and stuff.
+                    </p>
+                </div>
+            </a>
         </div>
     )
 }

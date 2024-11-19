@@ -5,6 +5,8 @@
 }
 
 .project-item {
+    text-decoration: none;
+    color: inherit;
     text-align: center;
     border: 1px solid;
     flex: 200px;
