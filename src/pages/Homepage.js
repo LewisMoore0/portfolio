@@ -7,13 +7,12 @@ export const HomePage = () => {
 
     return ( 
         <main>
-            <Box sx={{ height: 500}}>
+            <Box sx={{ height: 500, backgroundImage: 'linear-gradient(white, #f5f7ff)' }}>
                 <IntroductionCard/>
             </Box>
-            {/* End of intro card */}
-            {/* start of cta */}
-        
-            <Project/>
+            <Box sx={{ backgroundImage: 'linear-gradient(#f5f7ff, white)'}}>
+                <Project />
+            </Box>
             
         </main>
 
