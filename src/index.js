@@ -4,6 +4,7 @@ import './index.css';
 import { HomePage } from './pages/Homepage';
 import TopAppBar from './components/TopAppbar';
 import { createTheme, ThemeProvider } from '@mui/material'
+import { Footer } from './components/Footer';
 
 const theme = createTheme({
   palette: {
@@ -26,6 +27,7 @@ root.render(
       <ThemeProvider theme={theme}>
         <TopAppBar />
         <HomePage />
+        <Footer />
       </ThemeProvider>
   </React.StrictMode>
 );
