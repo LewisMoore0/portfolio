@@ -1,4 +1,6 @@
 import { Typography, Card, CardContent, CardHeader, Box, CardActions, Button } from "@mui/material"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LanguageIcon from '@mui/icons-material/Language';
 
 export const Project = () => {
     return (
@@ -14,7 +16,8 @@ export const Project = () => {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">Github Icon</Button>
+                <a target='_blank' href="https://www.github.com/LewisMoore0"><GitHubIcon /></a>
+                    <LanguageIcon />
                 </CardActions>
             </Card>
             <Card variant="outlined" sx={{ flex: 200, padding: '40px', margin: 1, minWidth: '200px' }}>
@@ -28,7 +31,8 @@ export const Project = () => {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">Github Icon</Button>
+                    <a target='_blank' href="https://www.github.com/LewisMoore0"><GitHubIcon /></a>
+                    <LanguageIcon />
                 </CardActions>
             </Card>
             <Card variant="outlined" sx={{ flex: 200, padding: '40px', margin: 1, minWidth: '200px'  }}>
@@ -42,7 +46,8 @@ export const Project = () => {
                     </Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small">Github Icon</Button>
+                    <a target='_blank' href="https://www.github.com/LewisMoore0"><GitHubIcon /></a>
+                    <LanguageIcon />
                 </CardActions>
             </Card>
         </Box> 
