@@ -28,7 +28,7 @@ export const About = () => {
       }));
 
     return (
-        <Grid container sx={{ height: '100%', backgroundColor: theme.palette.primary.main, color: 'white', padding: 5 }}>
+        <Grid container sx={{ height: '100%', backgroundColor: '#f5f7ff', padding: 5 }}>
             <Grid item size={6} sx={{ padding: 3}}>
                 <Typography variant="h5" align="center" sx={{ padding: 1}}>Who am I?</Typography>
                 <Typography variant='h6' align="justify" sx={{ pt: 1}}> 
