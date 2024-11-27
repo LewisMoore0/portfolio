@@ -20,7 +20,7 @@ export const About = () => {
         },
         [`& .${linearProgressClasses.bar}`]: {
           borderRadius: 5,
-          backgroundColor: '#1a90ff',
+          backgroundColor: theme.palette.primary.main,
           ...theme.applyStyles('dark', {
             backgroundColor: '#308fe8',
           }),
