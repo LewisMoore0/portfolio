@@ -12,10 +12,10 @@ export default function TopAppBar() {
       <AppBar position="fixed">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Welcome to my Portfolio!
+            <Link color='inherit' href='/' underline="hover"> LewisMooreDev </Link>
           </Typography>
-          <Link sx={{ p:1 }} color='inherit'>Home</Link>
-          <Link sx={{ p:1 }} color='inherit'>About</Link>
+          {/* <Link sx={{ p:1 }} color='inherit' href='/'>Home</Link> */}
+          {/* <Link sx={{ p:1 }} color='inherit' href='#about'>About</Link> */}
         </Toolbar>
       </AppBar>
     </Box>
