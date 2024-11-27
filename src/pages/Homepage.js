@@ -11,7 +11,7 @@ export const HomePage = () => {
             <Box sx={{ height: 500, backgroundImage: 'linear-gradient(white, #f5f7ff)' }}>
                 <IntroductionCard/>
             </Box>
-            <Box sx={{ height: 500 }}>
+            <Box>
                 <About />
             </Box>
             <Box sx={{ backgroundImage: 'linear-gradient(#f5f7ff, white)'}}>

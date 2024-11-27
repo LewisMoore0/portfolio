@@ -1,4 +1,4 @@
-import { Grid2 as Grid, Typography, useTheme, List} from "@mui/material"
+import { Grid2 as Grid, Typography, useTheme, Box} from "@mui/material"
 import LinearProgress, { linearProgressClasses } from '@mui/material/LinearProgress';
 import { styled } from '@mui/material/styles';
 
@@ -28,8 +28,8 @@ export const About = () => {
       }));
 
     return (
-        <Grid container sx={{ height: '100%', backgroundColor: '#f5f7ff', padding: 5 }}>
-            <Grid item size={6} sx={{ padding: 3}}>
+        <Box  sx={{ display: 'flex', flexFlow: 'row wrap', height: '100%', backgroundColor: '#f5f7ff', padding: 5 }}>
+            <Box sx={{ padding: 3, flex: '300px'}}>
                 <Typography variant="h5" align="center" sx={{ padding: 1}}>Who am I?</Typography>
                 <Typography variant='h6' align="justify" sx={{ pt: 1}}> 
                     Hi, I'm Lewis. I started my Software Development journey in 2018 when I attended and graudated from Makers Academy.
@@ -37,8 +37,8 @@ export const About = () => {
                     Having worked for both small and large companies, I have found my passion in helping people solve problems.
                     Now embarking on my freelancing journey, I help small and medium sized companies solve issues and create great products and websites.
                 </Typography>
-            </Grid>
-            <Grid item size={6} sx={{ padding: 3}}>
+            </Box>
+            <Box  sx={{ padding: 3, flex: '300px'}}>
                 <Typography variant="h5" align="center" sx={{ padding: 1}}>My skills</Typography>
                 {skillsList.map((skill) => {
                     return (
@@ -51,8 +51,8 @@ export const About = () => {
 
 
 
-            </Grid>
+            </Box>
 
-        </Grid>
+        </Box>
     )
 }
