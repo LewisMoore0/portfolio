@@ -8,7 +8,7 @@ export const HomePage = () => {
 
     return ( 
         <main>
-            <Box sx={{ height: 500, backgroundImage: 'linear-gradient(white, #f5f7ff)' }}>
+            <Box sx={{ height: 700 }}>
                 <IntroductionCard/>
             </Box>
             <Box>
