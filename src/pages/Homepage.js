@@ -8,7 +8,7 @@ export const HomePage = () => {
 
     return ( 
         <main>
-            <Box sx={{ height: 700 }}>
+            <Box sx={{ height: 750 }}>
                 <IntroductionCard/>
             </Box>
             <Box>
