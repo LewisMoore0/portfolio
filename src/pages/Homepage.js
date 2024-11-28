@@ -2,6 +2,7 @@ import { useTheme, Box } from '@mui/material'
 import { IntroductionCard } from '../components/IntroductionCard'
 import { Project } from '../components/Project'
 import { About } from '../components/About'
+import { ContactForm } from './Contact'
 
 export const HomePage = () => {
     const theme = useTheme()
@@ -17,8 +18,6 @@ export const HomePage = () => {
             <Box sx={{ backgroundImage: 'linear-gradient(#f5f7ff, white)'}}>
                 <Project />
             </Box>
-
-            
         </main>
 
     )

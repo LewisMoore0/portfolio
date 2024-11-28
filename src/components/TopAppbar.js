@@ -9,7 +9,7 @@ export default function TopAppBar() {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed">
+      <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Link color='inherit' href='/'> LewisMooreDev </Link>
