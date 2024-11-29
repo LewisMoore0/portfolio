@@ -1,10 +1,11 @@
-import { TextField, Box, Button, useTheme, Alert, Dialog } from '@mui/material'
+import { TextField, Box, Button, useTheme, Alert,  } from '@mui/material'
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const ContactForm = () => {
     const theme = useTheme()
     const form = useRef();
+    const [alert, setAlert] = useState({ success: false, severity: null, message: ''} )
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -14,11 +15,11 @@ export const ContactForm = () => {
         })
         .then(
           () => {
-               console.log('SUCCESS!')
+                setAlert({ success: true, severity: 'success', message: 'Your message was sent successfully!'} )
           },
           (error) => {
-            console.log('FAILED...', error.text);
-          },
+            setAlert({ success: false, severity: 'error', message: 'Something went wrong, please try again.'} )
+        },
         );
     };
 
@@ -30,6 +31,7 @@ export const ContactForm = () => {
                 <TextField label='Email Address' name='user_email' sx={{ paddingBottom: 3}}/>
                 <TextField label='Message' name='message' multiline rows={10} sx={{ paddingBottom: 3}}/>
                 <Button type='submit' value="Send" sx={{ backgroundColor: theme.palette.primary.main, color: 'white' }}>Send</Button>
+                { alert ? <Alert severity={`${alert.severity}`} sx={{ margin: 2}}> {alert.message} </Alert> : null }
             </Box>
         </form>
 
