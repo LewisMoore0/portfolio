@@ -32,10 +32,14 @@ export const About = () => {
             <Box sx={{ padding: 3, flex: '300px'}}>
                 <Typography variant="h5" align="center" sx={{ padding: 1}}>Who am I?</Typography>
                 <Typography variant='h6' align="justify" sx={{ pt: 1}}> 
-                    Hi, I'm Lewis. I started my Software Development journey in 2018 when I attended and graudated from Makers Academy.
-                    I was fortunate enough to attend Makes on a fully funded fellowship, and since then, I've not looked back.
+                    Hi, I'm Lewis. I started my Software Development journey in 2018 when I attended and graudated from Makers Academy, a comprehensive Web Development program.
+                    I was fortunate enough to attend on a fully funded fellowship, and since then, I've not looked back.
+                    <br/>
+                    <br/>
                     Having worked for both small and large companies, I have found my passion in helping people solve problems.
                     Now embarking on my freelancing journey, I help small and medium sized companies solve issues and create great products and websites.
+
+                    If you are looking to grow your businesses online presence, improve an existing website or need a brand new one built, then send me a <a href="/contact">message</a>!
                 </Typography>
             </Box>
             <Box  sx={{ padding: 3, flex: '300px'}}>
